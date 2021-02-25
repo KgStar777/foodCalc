@@ -18,3 +18,19 @@
     height: 500px;
     border: solid lime 2px;
 }
+
+/* render  */
+.container {
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.wrapper {
+    max-width: 300px;
+    margin: 0;
+}
+
+.wrapper img {
+    width: 100px;
+}
