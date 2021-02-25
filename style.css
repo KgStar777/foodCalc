@@ -1,0 +1,20 @@
+* {
+    background-color: rgb(49, 49, 49);
+    color: whitesmoke;
+}
+
+.input_wrapper{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+.input_wrapper input {
+    text-transform: uppercase;
+    width: 200px;
+}
+
+.wrap {
+    width: 200px;
+    height: 500px;
+    border: solid lime 2px;
+}
